@@ -1,0 +1,11 @@
+.layout {
+    height: 100vh;
+    margin: 5rem auto;
+    width: 40rem;
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        width: 70%;
+    }
+}

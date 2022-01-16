@@ -1,0 +1,16 @@
+.btn {
+    width: 40rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+.label {
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .input, .btn {
+        width: 70%;
+    }
+}

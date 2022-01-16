@@ -1,0 +1,27 @@
+.error {
+    color: red;
+}
+
+.input {
+    display: block;
+    width: 40rem;
+    height: 1.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.label {
+    display: block;
+    font-weight: 500;
+}
+
+.btn {
+    width: 40rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .input, .btn {
+        width: 70%;
+    }
+}

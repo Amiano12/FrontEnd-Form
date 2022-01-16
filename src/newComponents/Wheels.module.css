@@ -1,0 +1,23 @@
+
+
+.label {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.radio {
+    margin-right: 2rem;
+}
+
+.btn {
+    width: 40rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .input, .btn {
+        width: 70%;
+    }
+}
